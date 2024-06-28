@@ -55,7 +55,7 @@
                   animation="property: position; to: 0 1 -2; dur: 2000; easing: linear; loop: true"
                   animation__rotate="property: rotation; to: 0 360 0; dur: 150; easing: linear; loop: true">
         </a-entity>
-        <a-entity gps-entity-place gltf-model="./assets/scene.gltf" 
+        <!-- <a-entity gps-entity-place gltf-model="./assets/scene.gltf" 
           rotation="0 180 0" 
           animation-mixer 
           scale="0.05 0.05 0.05"
@@ -69,12 +69,11 @@
           animation__rotate="property: rotation; to: 0 360 0; dur: 4000; easing: linear; loop: true"
           animation__scale="property: scale; to: 0.1 0.1 0.1; dur: 2000; easing: easeInOutQuad; loop: true; dir: alternate">
         </a-entity> -->
-        <a-marker type="pattern" url="https://localhost/assets/pattern-IMG_0967.patt">
+        <a-marker preset="hiro">
     <!-- we use cors proxy to avoid cross-origin problems ATTENTION! you need to set up your server -->
         <a-entity
-
         position="0 0 0"
-        scale="0.05 0.05 0.05"
+        scale="0.005 0.005 0.005"
         gltf-model="./assets/scene.gltf"
         ></a-entity>
         </a-marker>
